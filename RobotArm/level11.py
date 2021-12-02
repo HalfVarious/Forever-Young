@@ -5,10 +5,10 @@ robotArm = RobotArm('exercise 11')
 # Jouw python instructies zet je vanaf hier:
 
 
-for a in range(10):
+for a in range(8):
     robotArm.moveRight()
 
-for a in range(10):
+for a in range(9):
     if robotArm.grab() and robotArm.scan() == 'white':
         robotArm.moveRight()
         robotArm.drop()

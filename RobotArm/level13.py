@@ -5,7 +5,7 @@ robotArm.randomLevel(1,7)
 
 # Jouw python instructies zet je vanaf hier:
 
-for i in range (0,7):
+for i in range (7):
     robotArm.grab()
     color = robotArm.scan()
     if color == '':

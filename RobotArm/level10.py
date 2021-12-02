@@ -4,11 +4,11 @@ robotArm = RobotArm('exercise 10')
 
 # Jouw python instructies zet je vanaf hier:
 
-robotArm.speed = 3
+
 
 for a in range(1, 11, 2):
     robotArm.grab()
-
+    print(a)
     for r in range(10-a):
         robotArm.moveRight()
 

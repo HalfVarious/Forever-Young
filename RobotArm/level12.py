@@ -5,7 +5,7 @@ robotArm = RobotArm('exercise 12')
 # Jouw python instructies zet je vanaf hier:
 
 
-for a in range(9):
+for a in range(8):
     robotArm.moveRight() 
 
 for a in range(10):
